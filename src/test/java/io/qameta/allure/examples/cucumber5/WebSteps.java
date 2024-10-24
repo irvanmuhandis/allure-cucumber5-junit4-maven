@@ -24,6 +24,7 @@ public class WebSteps {
 
     }
 
+
     @And("I create label with title {string}")
     public void createLabelWithTitle(final String title) {
         maybeThrowElementNotFoundException();
@@ -61,6 +62,11 @@ public class WebSteps {
 
     @Then("I should not see milestone with content {string}")
     public void shouldNotSeeMilestoneWithContent(String title) {
+
+    }
+
+    @Then("I should not see milestone with content {string}")
+    public void shouldNotSeeMilestoneWithContents(String title) {
 
     }
 

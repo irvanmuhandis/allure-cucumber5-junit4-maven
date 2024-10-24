@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: io.qameta.allure.examples.cucumber5.CucumberTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.707 s <<< FAILURE! - in io.qameta.allure.examples.cucumber5.CucumberTest
+Delete existing label for authorized user(Labels)  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.RuntimeException: Element not found for xpath [//div[@class='something']]
+
